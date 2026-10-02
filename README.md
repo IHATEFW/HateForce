@@ -1,13 +1,6 @@
 # HateForce
 
-```
- _   _    _  _____ _____ _____ ___  ____   ____ _____
-| | | |  / \|_   _| ____|  ___/ _ \|  _ \ / ___| ____|
-| |_| | / _ \ | | |  _| | |_ | | | | |_) | |   |  _|
-|  _  |/ ___ \| | | |___|  _|| |_| |  _ <| |___| |___
-|_| |_/_/   \_\_| |_____|_|   \___/|_| \_\\____|_____|
-                                          By IHATEFW
-```
+<img width="1127" height="556" alt="hateforce2" src="https://github.com/user-attachments/assets/3598314b-09aa-4d97-ad3f-bb7307d4a155" />
 
 He creado **HateForce**, una herramienta para hacer fuerza bruta a la contraseña de
 `su` en la propia máquina. La idea es simple: cuando ya tienes una shell sin
