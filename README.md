@@ -1,6 +1,6 @@
 # HateForce
 
-<img width="1127" height="556" alt="hateforce2" src="https://github.com/user-attachments/assets/3598314b-09aa-4d97-ad3f-bb7307d4a155" />
+<img width="1204" height="856" alt="hate" src="https://github.com/user-attachments/assets/1475b1fd-d41c-4d02-bc65-353124e2b440" />
 
 He creado **HateForce**, una herramienta para hacer fuerza bruta a la contraseña de
 `su` en la propia máquina. La idea es simple: cuando ya tienes una shell sin
