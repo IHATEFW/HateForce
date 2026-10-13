@@ -15,7 +15,7 @@ Solo trabaja contra el `su` **local**. No toca servicios remotos ni nada por el 
 - Funciona de verdad con `su` usando una terminal real por detrás, así que no falla como los típicos scripts que hacen `echo contraseña | su`.
 - Lee el resultado real de `su`, no se inventa aciertos.
 - Un modo `--fast` para ir más rápido, que además te avisa si algún intento quedó en duda.
-- No necesita instalar nada: solo Python 3.
+- Dos versiones con la misma lógica: una en **Python 3** (`hateforce.py`) y otra en **Bash puro** (`hateforce.sh`) para máquinas donde no hay Python instalado.
 
 ## Cómo se usa
 
@@ -29,6 +29,19 @@ python3 hateforce.py -u root -w rockyou.txt --fast
 # Otro usuario, con tiempo de espera y pausa entre intentos
 python3 hateforce.py -u victima -w passwords.txt -t 3 -d 0.2
 ```
+
+¿No tienes Python en la máquina? Usa la versión en Bash, con exactamente las mismas opciones:
+
+```bash
+# Misma herramienta, sin depender de Python
+bash hateforce.sh -u root -w /usr/share/wordlists/rockyou.txt
+
+# Modo rápido
+bash hateforce.sh -u root -w rockyou.txt --fast
+```
+
+La versión en Bash solo necesita cosas que ya vienen en cualquier Linux: `bash`, `su`,
+`script` (de util-linux) y `timeout` (de coreutils).
 
 ### Opciones
 
